@@ -1,0 +1,39 @@
+title = "All Things Distributed"
+baseURL = "https://www.allthingsdistributed.com"
+languageCode = "en-us"
+theme = "ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "Werner Vogels on building scalable and robust distributed systems."
+  facebook = ""
+  twitter = "https://twitter.com/werner"
+  instagram = "https://instagram.com/djwerner"
+  youtube = "https://www.youtube.com/watch?v=gjJjtp4rCtM&list=PLhr1KZpdzukdIpgzSSCkNsnRAwDz6Xx5B"
+  github = ""
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/wernervogels/"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 3
+
+[permalinks]
+  posts = "/:year/:month/:title/"
